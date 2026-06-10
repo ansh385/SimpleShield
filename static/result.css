@@ -1,0 +1,23 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.result-box {
+    max-width: 800px;
+    margin: auto;
+}
+
+.good {
+    color: lime;
+}
+
+.bad {
+    color: red;
+}
+
+a {
+    color: #60a5fa;
+}

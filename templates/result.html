@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scan Results</title>
+</head>
+
+<body>
+
+    <h1>Security Scan Results</h1>
+
+    <h3>{{ website }}</h3>
+
+    {% for header, value in security_headers.items() %}
+
+    <p>
+        <strong>{{ header }}</strong> :
+        {% if value %}
+        ✅ Present
+        {% else %}
+        ❌ Missing
+        {% endif %}
+    </p>
+
+    {% endfor %}
+
+    <a href="/">Scan Another Website</a>
+
+</body>
+
+</html>
