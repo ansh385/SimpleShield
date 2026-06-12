@@ -1,23 +1,46 @@
 body {
+    margin: 0;
+    padding: 30px;
     background: #0f172a;
     color: white;
     font-family: Arial, sans-serif;
-    padding: 40px;
 }
 
 .result-box {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
-.good {
-    color: lime;
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.bad {
-    color: red;
+h2 {
+    margin-top: 0;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
 }
 
 a {
     color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
